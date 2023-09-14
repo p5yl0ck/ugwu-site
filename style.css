@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "General Sans";
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    width: 100%;
+}
+#hero{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color:#fff;
+}
+
+#nav{
+    width: 100%;
+    padding: 20px 40px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}    
+#nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+#heading    {
+    margin-top: 90px;
+}
+
+#heading h1{
+    font-size: 9vw;
+    text-transform: uppercase;
+    margin-left: 30px;
+    line-height: 1;
+    opacity: .8;
+    
+
+}
+
+#heading #secondh1{
+    margin-left: 230px;
+}
+
+.blocktext{
+    width: fit-content;
+
+}
+.blocktext h5{
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 15px;
+
+}
+
+#chotiheadings  {
+    margin-top: 100px;
+    padding-right:30px ;
+}
+
+#chotiheadings h5{
+    text-align: right;
+    text-transform: uppercase;
+    margin-top: .7vw;
+    font-size: 1.3vw;
+    gap: 0.2;
+}
+
+#herofooter{
+    position: absolute;
+    padding: 0 2vw;
+    width: 100%;
+    bottom: 3% ;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1vw;
+    
+}
+
+#herofooter a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#herofooter #iconset{
+    display: flex;
+    gap: 5px;
+
+}
+
+#herofooter .circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #666
+    
+
+}
+
+#second{
+    padding-top: 200px; 
+    padding-right: 10vw;
+    padding-left: 3vw  ;
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    color: #fff;
+}
+
+.elem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3.5vw 3vw;
+    padding-right: 0px;
+    width: 100%;
+    border-top: 1px solid #888;
+    position: relative;
+    
+}
+.last  {
+    border-bottom: 1px solid #888;
+}
+
+.elem h1{
+    text-transform: uppercase;
+    font-size: 7.0vw;
+    opacity: .65;
+}
+.elem img{
+    position: absolute;
+    z-index: 99;
+    height: 140%;
+   
+    display: none;
+}
+
+#about{
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    
+    padding: 10vw  10vw;
+    padding-top: 15vw;
+    padding-left: 40vw;
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#about img{
+    width: 250px;
+    
+}
+#textabout{
+    width: 25rem;
+}
+#textabout h5{
+    text-transform: uppercase;
+    opacity: .6;
+    font-size: 13px;
+}
+
+#textabout p{
+    line-height: 1.5;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+#textabout a{
+    padding: 8px 25px;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    color: #fff;
+    text-decoration: none;
+}
+ 
+
+#subscribe{
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    padding: 20px 30px;
+    padding-bottom: 6vw;
+    font-size: 17px;
+    
+}
+
+#subscribe h5{
+    
+    text-transform: uppercase;
+    opacity: .6;
+    margin-bottom: 5px; 
+    
+    
+
+}
+
+#subscribe h3{
+        text-transform: uppercase;
+        font-size: 14px;
+        font-size: 15px;
+}
+
+#footer {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 30px;
+    
+}
+
+#footerleft{
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    
+
+}
+#footerright   {
+    display: flex;
+    gap: 30px;
+    padding-right: 30px;
+    
+    
+    
+}
+
+#footer a {
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none; 
+    
+    font-size: 14px;
+    font-weight: 500;
+}
